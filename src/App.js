@@ -1,4 +1,5 @@
 import React from 'react';
+import HeroSection from './components/HeroSection';
 import Navbar from './components/Navbar';
 import GlobalStyles from './globalStyles';
 
@@ -7,6 +8,7 @@ function App() {
     <>
     <GlobalStyles />
     <Navbar />
+    <HeroSection />
     </>
   );
 }
