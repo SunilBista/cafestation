@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.js": "/cafeStationWebsite/static/js/main.9e7e4d4c.chunk.js",
-    "main.js.map": "/cafeStationWebsite/static/js/main.9e7e4d4c.chunk.js.map",
-    "runtime-main.js": "/cafeStationWebsite/static/js/runtime-main.1fcdbb63.js",
-    "runtime-main.js.map": "/cafeStationWebsite/static/js/runtime-main.1fcdbb63.js.map",
-    "static/js/2.e980f388.chunk.js": "/cafeStationWebsite/static/js/2.e980f388.chunk.js",
-    "static/js/2.e980f388.chunk.js.map": "/cafeStationWebsite/static/js/2.e980f388.chunk.js.map",
-    "static/js/3.4462bc8b.chunk.js": "/cafeStationWebsite/static/js/3.4462bc8b.chunk.js",
-    "static/js/3.4462bc8b.chunk.js.map": "/cafeStationWebsite/static/js/3.4462bc8b.chunk.js.map",
-    "index.html": "/cafeStationWebsite/index.html",
-    "static/js/2.e980f388.chunk.js.LICENSE.txt": "/cafeStationWebsite/static/js/2.e980f388.chunk.js.LICENSE.txt",
-    "static/media/five.d01c7593.jpg": "/cafeStationWebsite/static/media/five.d01c7593.jpg",
-    "static/media/four.69d7f90c.jpg": "/cafeStationWebsite/static/media/four.69d7f90c.jpg",
-    "static/media/main.cbebbfa6.jpg": "/cafeStationWebsite/static/media/main.cbebbfa6.jpg",
-    "static/media/one.50a803f2.jpg": "/cafeStationWebsite/static/media/one.50a803f2.jpg",
-    "static/media/six.b9932ad1.jpg": "/cafeStationWebsite/static/media/six.b9932ad1.jpg",
-    "static/media/three.656c171d.jpg": "/cafeStationWebsite/static/media/three.656c171d.jpg",
-    "static/media/two.202febe1.jpg": "/cafeStationWebsite/static/media/two.202febe1.jpg"
+    "main.js": "/cafestation/static/js/main.9e7e4d4c.chunk.js",
+    "main.js.map": "/cafestation/static/js/main.9e7e4d4c.chunk.js.map",
+    "runtime-main.js": "/cafestation/static/js/runtime-main.bc8c1141.js",
+    "runtime-main.js.map": "/cafestation/static/js/runtime-main.bc8c1141.js.map",
+    "static/js/2.31cdbf62.chunk.js": "/cafestation/static/js/2.31cdbf62.chunk.js",
+    "static/js/2.31cdbf62.chunk.js.map": "/cafestation/static/js/2.31cdbf62.chunk.js.map",
+    "static/js/3.4462bc8b.chunk.js": "/cafestation/static/js/3.4462bc8b.chunk.js",
+    "static/js/3.4462bc8b.chunk.js.map": "/cafestation/static/js/3.4462bc8b.chunk.js.map",
+    "index.html": "/cafestation/index.html",
+    "static/js/2.31cdbf62.chunk.js.LICENSE.txt": "/cafestation/static/js/2.31cdbf62.chunk.js.LICENSE.txt",
+    "static/media/five.d01c7593.jpg": "/cafestation/static/media/five.d01c7593.jpg",
+    "static/media/four.69d7f90c.jpg": "/cafestation/static/media/four.69d7f90c.jpg",
+    "static/media/main.cbebbfa6.jpg": "/cafestation/static/media/main.cbebbfa6.jpg",
+    "static/media/one.50a803f2.jpg": "/cafestation/static/media/one.50a803f2.jpg",
+    "static/media/six.b9932ad1.jpg": "/cafestation/static/media/six.b9932ad1.jpg",
+    "static/media/three.656c171d.jpg": "/cafestation/static/media/three.656c171d.jpg",
+    "static/media/two.202febe1.jpg": "/cafestation/static/media/two.202febe1.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.1fcdbb63.js",
-    "static/js/2.e980f388.chunk.js",
+    "static/js/runtime-main.bc8c1141.js",
+    "static/js/2.31cdbf62.chunk.js",
     "static/js/main.9e7e4d4c.chunk.js"
   ]
 }
