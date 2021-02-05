@@ -1,6 +1,6 @@
 export const menuData = [
     {
-        title: 'Home', link:'/home'
+        title: 'Home', link:'/'
     },
     {
         title: 'About', link:'/about'

@@ -1,26 +1,30 @@
-import React, { useState } from 'react';
-import Contact from './components/Contact';
-import DropDown from './components/DropDown';
-import HeroSection from './components/HeroSection';
-import Info from './components/InfoSection';
-import Navbar from './components/Navbar';
-import Testimonials from './components/Testimonials';
-import GlobalStyles from './globalStyles';
+import React from 'react';
+import About from './components/About';
+import ContactUs from './components/ContactUs';
+import Home from './components/Home';
+import Service from './components/Service';
+import {
+  Switch,
+  Route,
+} from "react-router-dom";
 
 function App() {
-  const [isOpen, setIsOpen] = useState(false);
-  const toggle = () => {
-    setIsOpen(!isOpen);
-  }
   return (
     <>
-    <GlobalStyles />
-    <Navbar toggle={toggle}/>
-    <DropDown isOpen={isOpen} toggle={toggle}/>
-    <HeroSection />
-    <Info />
-    <Testimonials />
-    <Contact />
+    <Switch>
+          <Route exact path="/services">
+            <Service />
+          </Route>
+          <Route exact path="/about">
+            <About />
+          </Route>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route exact path="/contact">
+            <ContactUs />
+          </Route>
+        </Switch>
     </>
   );
 }
