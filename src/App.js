@@ -3,6 +3,7 @@ import DropDown from './components/DropDown';
 import HeroSection from './components/HeroSection';
 import Info from './components/InfoSection';
 import Navbar from './components/Navbar';
+import Testimonials from './components/Testimonials';
 import GlobalStyles from './globalStyles';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
     <DropDown isOpen={isOpen} toggle={toggle}/>
     <HeroSection />
     <Info />
+    <Testimonials />
     </>
   );
 }

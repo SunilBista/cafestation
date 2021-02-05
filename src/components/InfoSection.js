@@ -6,7 +6,7 @@ const Section = styled.section`
 width: 100%;
 height: 100%;
 padding: 4rem 0rem;
-background: #000d1a;
+background: #fff;
 `;
 const Container = styled.section`
     padding: 3rem;
@@ -20,14 +20,14 @@ const Container = styled.section`
 `;
 const Intro = styled.section`
     h1{
-        color: white;
+        color: #000d1a;
         display: flex;
         justify-content: center;
-        font-size: 20px;
+        font-size: 30px;
         margin-top: -30px;
     }
     p{
-        color: white;
+        color: #000d1a;
         display: flex;
         justify-content: center;
         font-size: 20px;
@@ -36,19 +36,41 @@ const Intro = styled.section`
         margin-top:20px;
         margin-bottom:20px;
     }
+    @media screen and (max-width: 768px){
+       h1{
+           display: flex;
+           justify-content:center;
+       }
+    }
 `;
 const Gallery = styled.section`
 display:flex;
 flex-direction: row;
 justify-content: space-around;
 flex-wrap: wrap;
+@media screen and (max-width: 768px){
+    margin-top: 50px;
+}
 `;
-const Img = styled.img`
+
+const ImgContainer = styled.div`
     width: 320px;
     height: 410px;
     margin-bottom: 20px;
+    border: 2px solid #000d1a;
+    overflow: hidden;
+`;
+
+const Img = styled.img`
+    width: 100%;
+    height: 100%;
     object-fit: cover;
-    border: 2px solid white;
+    transition: transform .5s ease;
+
+    &:hover{
+        transform: scale(1.2);
+        cursor: pointer;
+    }
 
     @media screen and (max-width: 768px){
         margin-bottom: 10px;
@@ -65,7 +87,9 @@ const Info = () => {
                 </Intro>
                 <Gallery>
                     { galleryData.map((item, index) => (
+                        <ImgContainer key={index}>
                         <Img src={item.image} alt="Gallery" key={index}/>
+                        </ImgContainer>
                     ))}
                 </Gallery>
             </Container>
