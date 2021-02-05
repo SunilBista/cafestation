@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Contact from './components/Contact';
 import DropDown from './components/DropDown';
 import HeroSection from './components/HeroSection';
 import Info from './components/InfoSection';
@@ -19,6 +20,7 @@ function App() {
     <HeroSection />
     <Info />
     <Testimonials />
+    <Contact />
     </>
   );
 }

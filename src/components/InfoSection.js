@@ -6,7 +6,7 @@ const Section = styled.section`
 width: 100%;
 height: 100%;
 padding: 4rem 0rem;
-background: #fff;
+background-image: radial-gradient( circle 1158px at 6.4% 48.8%,  rgba(195,241,245,1) 0%, rgba(255,255,255,1) 90.2% );
 `;
 const Container = styled.section`
     padding: 3rem;
@@ -57,7 +57,7 @@ const ImgContainer = styled.div`
     width: 320px;
     height: 410px;
     margin-bottom: 20px;
-    border: 2px solid #000d1a;
+    border: 2px solid #d3d3d3;
     overflow: hidden;
 `;
 
@@ -83,7 +83,7 @@ const Info = () => {
             <Container>
                 <Intro>
                     <h1>Welcome to Tandoori Chiya & Cafe Station</h1>
-                    <p>Good food and great vides. Take a cup and forget about everything for a few minutes. </p>
+                    <p>Good food and great vibes. Take a cup and forget about everything for a few minutes. </p>
                 </Intro>
                 <Gallery>
                     { galleryData.map((item, index) => (

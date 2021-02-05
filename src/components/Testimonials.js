@@ -5,8 +5,8 @@ import { reviewData } from '../data/reviewData';
 const Section = styled.section`
 width: 100%;
 height: 100%;
-padding: 4rem 0rem;
-background: #fff;
+padding: 5rem 0rem;
+background: #e3e3e3;
 `;
 
 const Intro = styled.section`
